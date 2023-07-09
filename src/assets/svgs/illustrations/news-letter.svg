@@ -1,0 +1,22 @@
+<svg width="1372" height="507" viewBox="0 0 1372 507" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1372" height="507" rx="8" fill="#7C58D3"/>
+<mask id="mask0_0_1886" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1372" height="507">
+<rect width="1372" height="507" rx="8" fill="white"/>
+</mask>
+<g mask="url(#mask0_0_1886)">
+<path opacity="0.5" fill-rule="evenodd" clip-rule="evenodd" d="M834.881 526C834.881 526 891.679 436.92 1021.37 393.308C1151.06 349.696 1207.86 321.858 1229.16 266.183C1250.46 210.509 1379.2 172 1382.99 172C1386.77 172 1382.99 526 1382.99 526H834.881Z" fill="#DFD0FF" stroke="#B6A0E2" stroke-width="4" stroke-linecap="round" stroke-dasharray="50"/>
+<circle cx="32.5967" cy="481.597" r="237.004" fill="#FFDA47"/>
+<circle cx="32.5966" cy="481.597" r="270.775" transform="rotate(-46 32.5966 481.597)" stroke="url(#paint0_linear_0_1886)" stroke-width="4" stroke-linecap="round" stroke-dasharray="107 98"/>
+<circle cx="216.5" cy="59.5" r="7.5" fill="#FF47A2"/>
+<circle cx="118" cy="93" r="5" fill="#FFDA47"/>
+<circle cx="1033" cy="467" r="5" fill="#FFDA47"/>
+<circle cx="1236" cy="37" r="5" fill="#FFDA47"/>
+<circle cx="1336.5" cy="207.5" r="7.5" fill="#FF47A2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_1886" x1="310.906" y1="-7.01514" x2="-266.526" y2="310.114" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFEF7D"/>
+<stop offset="1" stop-color="#FFDA47" stop-opacity="0.01"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+:root {
+  --background-primary: #ffffff;
+  --text-primary: #0e081e;
+  --text-secondary: #1c103b;
+  --accent-primary: #9c5bf5;
+  --accent-secondary: #dcff02;
+
+  /* Headings Font Styles */
+  --main-heading: 700 clamp(1.5rem, 2rem, 3rem) 'Nunito', sans-serif;
+  --sub-heading: 700 clamp(1rem, 1.25rem, 2rem) 'Lato', sans-serif;
+  /* Titles Font Styles */
+  --main-title: 600 clamp(1rem, 1.25rem, 1.5rem) 'Nunito', sans-serif;
+  --sub-title: 600 clamp(0.8rem, 1rem, 1.25rem) 'Lato', sans-serif;
+  /* Labels Font Styles */
+  --main-label: 500 clamp(0.8rem, 1rem, 1.25rem) 'Nunito', sans-serif;
+  --sub-label: 500 clamp(0.6rem, 0.8rem, 1rem) 'Nunito', sans-serif;
+  /* Texts Font Styles */
+  --main-text: 400 clamp(0.8rem, 1rem, 1.25rem) 'Nunito', sans-serif;
+  --sub-text: 400 clamp(0.7rem, 0.8rem, 1rem) 'Lato', sans-serif;
+
+  /* Spacing Units */
+  --spacing: 1rem;
+  --double-spacing: 2rem;
+  --half-spacing: 0.5rem;
+  --border-radius: 1rem;
+  --half-border-radius: 0.5rem;
+  --circular-border-radius: 10rem;
+}
