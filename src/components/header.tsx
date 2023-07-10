@@ -1,5 +1,5 @@
 import { Call, Close, Email, Menu, ShoppingCart } from '@mui/icons-material';
-import { AppBar, Button, Drawer, IconButton, Link, List, ListItem, ListItemText, Stack, Typography } from '@mui/material';
+import { AppBar, Button, Drawer, IconButton, Link, List, ListItem, Stack, Typography } from '@mui/material';
 import { ReactComponent as FacebookIcon } from '../assets/svgs/icons/facebook.svg';
 import { ReactComponent as InstagramIcon } from '../assets/svgs/icons/instagram.svg';
 import { ReactComponent as TwitterIcon } from '../assets/svgs/icons/twitter.svg';
@@ -69,7 +69,9 @@ export default function Header() {
 					{tabs.map((tab, index) => {
 						return (
 							<ListItem key={index}>
-								<ListItemText primary={tab.label} />
+								<Link href={tab.href} underline="none" key={index}>
+									<Typography variant='subtitle1' color={"text.primary"}>{tab.label}</Typography>
+								</Link>
 							</ListItem>
 							// 		<li>
 							// 	<Link href={tab.href} underline="none" key={index}>

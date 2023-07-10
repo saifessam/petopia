@@ -13,7 +13,6 @@ import Services from "../../components/services";
 
 export default function HomePage() {
 	return (
-
 		<Box sx={{ bgcolor: "background.default" }}>
 			<Header />
 			<Box component={"main"}>
