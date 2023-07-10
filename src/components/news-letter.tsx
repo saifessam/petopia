@@ -1,4 +1,4 @@
-import { Button, Container, FormControl, Stack, TextField, Typography } from '@mui/material';
+import { Button, Container, Stack, TextField, Typography } from '@mui/material';
 import NewsLetterbackground from '../assets/svgs/illustrations/news-letter.svg';
 
 export default function NewsLetter() {
@@ -9,10 +9,10 @@ export default function NewsLetter() {
 					<Typography variant='h4' fontWeight={900} color={"background.default"} textAlign={"center"}>Get 20% Off Your First Purchase When You Use Petco Credit Card</Typography>
 					<Typography variant='body2' color={"background.default"} textAlign={"center"}>Sapien nec sagittis aliquam malesuada bibendum arcu vitae elementum. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius sit.</Typography>
 				</Stack>
-				<FormControl sx={{ flexDirection: "row", alignItems: "stretch", gap: 1 }}>
-					<TextField label="Type your Email" variant="outlined" color='info' focused />
+				<Stack direction={"row"} spacing={1}>
+					<TextField id="email" label="Type your Email" size="small" color='info' inputProps={{ style: { color: 'white' } }} />
 					<Button variant='contained' color='secondary'>Subscribe</Button>
-				</FormControl>
+				</Stack>
 			</Stack>
 		</Container>
 	);

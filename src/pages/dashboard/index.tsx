@@ -39,13 +39,14 @@ export default function DashboardPage() {
 		<Box sx={{ bgcolor: "background.default" }}>
 			<Header />
 			<Container component={"main"}>
-				<Stack direction={"row"} justifyContent={"space-between"} alignItems={"center"}>
+				<Stack direction={{ xs: "column", sm: "row" }} justifyContent={{ sm: "space-between" }} alignItems={{ sm: "center" }}>
 					<Typography variant='h6' fontWeight={700} color={"text.primary"}>Products</Typography>
-					<FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+					<FormControl variant="outlined">
 						<InputLabel htmlFor="search">Search</InputLabel>
 						<OutlinedInput
 							id="search"
 							label="Search"
+							size='small'
 							endAdornment={
 								<InputAdornment position="end">
 									<IconButton edge="end">
@@ -56,7 +57,7 @@ export default function DashboardPage() {
 						/>
 					</FormControl>
 				</Stack>
-				<Button variant='outlined' color='primary' startIcon={<Add />} onClick={() => setOpenDialog(true)} sx={{ mb: 2 }}>Product</Button>
+				<Button variant='outlined' color='primary' startIcon={<Add />} onClick={() => setOpenDialog(true)} sx={{ width: { xs: 1, sm: "auto" }, my: 2 }}>Product</Button>
 				<DataGrid rows={rows} columns={columns} checkboxSelection />
 				<DialogComponent open={openDialog} setOpen={setOpenDialog} />
 			</Container>

@@ -8,6 +8,6 @@ export default async function getProducts(): Promise<any> {
 		headers,
 	};
 
-	const products = await (await fetch("/products", options)).json();
+	const products = await (await fetch("http://acad-ecommerce.noot.ae/products", options)).json();
 	return products;
 }

@@ -53,10 +53,10 @@ export default function Footer() {
 					<Typography variant='h6' fontWeight={900} color={"primary.main"}>NewsLetter</Typography>
 					<Stack alignItems={"center"} spacing={2}>
 						<Typography variant='body1' color={"text.primary"}>Be first in the queue! Get our latest news straight to your inbox.</Typography>
-						<FormControl sx={{ flexDirection: "row", gap: 2 }}>
+						<Stack direction={"row"} sx={{ gap: 2 }}>
 							<TextField label="Email" variant="outlined" size="small" color='primary' />
 							<Button variant='contained' color="primary"><ArrowForward /></Button>
-						</FormControl>
+						</Stack>
 					</Stack>
 				</Grid>
 			</Grid>

@@ -17,6 +17,31 @@ const theme: Theme = createTheme({
         }
       }
     },
+    MuiTextField: {
+      styleOverrides: {
+        root: {
+          '& label.Mui-focused': {
+            color: constants.BACKGROUND_PRIMARY,
+          },
+          '& .MuiInput-underline:after': {
+            borderBottomColor: constants.BACKGROUND_PRIMARY,
+          },
+          '& .MuiOutlinedInput-root': {
+            '& fieldset': {
+              borderColor: constants.BACKGROUND_PRIMARY,
+              color: constants.BACKGROUND_PRIMARY,
+            },
+            '&:hover fieldset': {
+              borderColor: constants.BACKGROUND_PRIMARY,
+            },
+            '&.Mui-focused fieldset': {
+              borderColor: constants.BACKGROUND_PRIMARY,
+              color: constants.BACKGROUND_PRIMARY,
+            },
+          },
+        }
+      }
+    },
     MuiButton: {
       styleOverrides: {
         root: {
